@@ -1,0 +1,54 @@
+# Models Instructions
+
+This folder contains the instructions for downloading the necessary models for use with Stable Diffusion and ComfyUI.
+
+## DreamShaper Model
+- **Description**: DreamShaper is a versatile model fine-tuned for creating artistic and creative images.
+- **Download Link**: [DreamShaper on Civitai](https://civitai.com/models)
+- **File Type**: `.ckpt` or `.safetensors`
+- **Recommended Version**: DreamShaper v5 or latest.
+- **Usage**: Place the downloaded file in the `models` folder and load it in ComfyUI.
+
+---
+
+## RealArcVisXL Model
+- **Description**: RealArcVisXL is designed for generating highly detailed architectural visualization images.
+- **Download Link**: [RealArcVisXL on Civitai](https://civitai.com/models)
+- **File Type**: `.ckpt` or `.safetensors`
+- **Recommended Version**: RealArcVisXL v1.1 or latest.
+- **Usage**: Place the downloaded file in the `models` folder and load it in ComfyUI.
+
+---
+
+## Flux GGUF Model
+- **Description**: Flux GGUF is a high-performance model optimized for stable and fast diffusion-based image generation.
+- **Download Link**: [Flux GGUF on Hugging Face](https://huggingface.co/models) or [Civitai](https://civitai.com/models)
+- **File Type**: `.gguf`
+- **Recommended Version**: Latest version available.
+- **Usage**: 
+  1. Download the `.gguf` file from the provided link.
+  2. Place the file in the `models` directory.
+  3. Load it in ComfyUI using the model loader.
+
+---
+
+## SDXL Model
+- **Description**: SDXL (Stable Diffusion XL) is a cutting-edge model designed for generating hyper-realistic and detailed images with a wide variety of styles.
+- **Download Link**: [SDXL on Hugging Face](https://huggingface.co/models) or [Civitai](https://civitai.com/models)
+- **File Type**: `.ckpt` or `.safetensors`
+- **Recommended Version**: SDXL v1.0 or the latest.
+- **Usage**: 
+  1. Download the `.ckpt` or `.safetensors` file for SDXL.
+  2. Place the file in the `models` directory.
+  3. Select it in ComfyUI for workflows requiring high-quality output.
+
+---
+
+## Additional Notes
+1. Ensure that the model files are named correctly and placed in the `models` directory.
+2. Use ComfyUI's model loader to select the desired model for your workflow.
+3. For more details about these models, refer to their respective documentation on the Civitai page.
+# Models Instructions
+
+This folder contains the instructions for downloading the necessary models for use with Stable Diffusion and ComfyUI.
+
