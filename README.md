@@ -1,5 +1,3 @@
-# Image_Generation_using_Stable_diffusion_and_ComfyUI
-
 # Stable Diffusion and ComfyUI Image Generation Repository
 
 This repository contains all the images and related prompts used for my report on image generation using Stable Diffusion and ComfyUI. The images showcase various creative prompts and examples of ComfyUI's capabilities in enhancing image generation.
