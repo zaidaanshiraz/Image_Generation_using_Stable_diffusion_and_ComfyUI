@@ -35,9 +35,42 @@ To generate images or explore further, you need to have ComfyUI installed.
 
 ## Repository Structure
 ```
-├── images/                 # Generated images
-├── prompts.md             # Prompts used for image generation
-├── README.md              # Project overview and instructions
+Image_Generation_using_Stable_diffusion_and_ComfyUI/
+│
+├── README.md               # Detailed description of the project, setup instructions, and usage
+├── LICENSE                 # License file for the repository
+├── .gitignore              # Files and directories to ignore in Git
+│
+├── inputs/                 # Input prompts or reference images
+│   ├── prompts.md          # Text file containing the input prompts
+│   ├── reference_images/   # Optional: Add reference images used for comparison
+│
+├── outputs/                # Generated images and results
+│   ├── cinematic_knight.jpg
+│   ├── futuristic_cityscape.jpg
+│   ├── swiss_alps.jpg
+│   ├── ...
+│
+├── models/                 # Model files for Stable Diffusion and ComfyUI
+│   ├── DreamShaper/        # Folder for DreamShaper model files
+│   │   ├── dreamshaper_v8.ckpt
+│   │   ├── instructions.txt
+│   │
+│   ├── RealArchVisXL/      # Folder for RealArchVisXL model files
+│   │   ├── realarchvisxl.ckpt
+│   │   ├── instructions.txt
+│   │
+│   ├── Flux_GGUF/          # Folder for Flux GGUF model files
+│   │   ├── flux_gguf_v2.ckpt
+│   │   ├── instructions.txt
+│   │
+│   ├── SDXL/               # Folder for SDXL model files
+│       ├── sdxl_v1_base.ckpt
+│       ├── sdxl_v1_refiner.ckpt
+│       ├── instructions.txt
+├── ComfyUI Workflows/          # Additional project documentation
+│   ├── workflow_diagram.png
+│   ├── text to image.json
 ```
 
 ## References
