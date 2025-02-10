@@ -82,3 +82,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ---
 For any issues or questions, feel free to raise an issue or contact me via email or GitHub.
+Name: Mohammed Zaidaan Shiraz Email: zaidaanshiraz8@gmail.com GitHub: zaidaanshiraz
